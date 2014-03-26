@@ -1,0 +1,26 @@
+{
+    "name": "retro",
+    "description": "retrospective",
+    "keywords": [
+        "retrospective"
+    ],
+    "version": "0.0.1",
+    "private": true,
+    "author": "Matheus Guilarducci <mguilarducci@gmail.com>",
+    "engines": {
+        "node": "0.10.x",
+        "npm": "1.2.x"
+    },
+    "scripts": {
+        "test": "NODE_ENV=test ./node_modules/.bin/mocha --reporter spec --timeout 10000 test/test-*.js"
+    },
+    "dependencies": {
+        "express": "latest",
+        "mongoose": "latest"
+    },
+    "devDependencies": {
+        "mocha": "latest",
+        "should": "latest",
+        "supertest": "latest"
+    }
+}
