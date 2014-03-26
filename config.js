@@ -1,9 +1,9 @@
 module.exports = {
     'development': {
-        'db': 'mongodb://localhost/muncci_development'
+        'db': 'mongodb://localhost/retrospectives_development'
     },
     'test': {
-        'db': 'mongodb://localhost/muncci_test'
+        'db': 'mongodb://localhost/retrospectives_test'
     },
     'production': {}
 }
