@@ -18,6 +18,7 @@ mongoose.connection.on('disconnected', function () {
 
 var express = require('express')
 app = express()
+app.use(express.bodyParser());
 
 require('./routes')
 
